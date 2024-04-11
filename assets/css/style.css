@@ -1100,6 +1100,10 @@ main {
   transform: scale(1.1);
 }
 
+.project-item img {
+  opacity: 50%;
+}
+
 .project-title,
 .project-category {
   margin-left: 10px;
