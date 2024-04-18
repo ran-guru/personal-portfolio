@@ -1241,7 +1241,13 @@ main {
 }
 
 .contact-form {
-  margin-bottom: 10px;
+  margin-top: 40px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .form-title {
@@ -1291,7 +1297,7 @@ textarea.form-input::-webkit-resizer {
 
 .form-btn {
   position: relative;
-  width: 100%;
+  width: 200px;
   background: var(--border-gradient-onyx);
   color: var(--orange-yellow-crayola);
   display: flex;
@@ -1305,6 +1311,10 @@ textarea.form-input::-webkit-resizer {
   box-shadow: var(--shadow-3);
   z-index: 1;
   transition: var(--transition-1);
+}
+
+.form-btn a {
+  color: var(--orange-yellow-crayola);
 }
 
 .form-btn::before {
@@ -1792,11 +1802,6 @@ textarea.form-input::-webkit-resizer {
 
   .input-wrapper {
     grid-template-columns: 1fr 1fr;
-  }
-
-  .form-btn {
-    width: max-content;
-    margin-left: auto;
   }
 }
 
